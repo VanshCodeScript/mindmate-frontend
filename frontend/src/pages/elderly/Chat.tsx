@@ -18,9 +18,9 @@ import {
 } from 'lucide-react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useChatStore } from '../../store/chatStore'
-import ChatMessage from '../../components/Chatbot/ChatMessage'
-import VoiceRecorder from '../../components/Chatbot/VoiceRecorder'
-import KnowledgeBaseModal from '../../components/Chatbot/KnowledgeBaseModal'
+import ChatMessage from '@/components/chatbot/ChatMessage'
+import VoiceRecorder from '@/components/chatbot/VoiceRecorder'
+import KnowledgeBaseModal from '@/components/chatbot/KnowledgeBaseModal'
 import EmergencyBanner from '../../components/emergency/EmergencyBanner'
 import AuthenticatedLayout from '../../components/layout/AuthenticatedLayout'
 
