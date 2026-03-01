@@ -1,0 +1,9 @@
+{
+    "name": "mindmate-root",
+    "private": true,
+    "scripts": {
+        "install-frontend": "cd frontend && npm install",
+        "build": "cd frontend && npm run build",
+        "install": "npm run install-frontend"
+    }
+}
